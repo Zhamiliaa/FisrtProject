@@ -89,6 +89,12 @@
 #
 # to_file(users)
 
+dict1 = {'a':1, 'b': 3, "n": 6}
+dict2 = {'c':33, 'w':2, 'x':2}
+
+dict1.update(dict2)
+print(dict1)
+
 
 
 
